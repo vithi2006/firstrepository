@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pt Appointment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Appointments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Appointment time --></label>
+        <name>Appointment_time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient detail --></label>
+        <name>Pt__c</name>
+        <relationshipLabel><!-- Appointments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason for appointment --></label>
+        <name>Reason_for_appointment__c</name>
+        <picklistValues>
+            <masterLabel>BP</masterLabel>
+            <translation><!-- BP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diabetic review</masterLabel>
+            <translation><!-- Diabetic review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eczema</masterLabel>
+            <translation><!-- Eczema --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General check up</masterLabel>
+            <translation><!-- General check up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General issues</masterLabel>
+            <translation><!-- General issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hay Fever</masterLabel>
+            <translation><!-- Hay Fever --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Immunisation (flu Jab etc..)</masterLabel>
+            <translation><!-- Immunisation (flu Jab etc..) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stomach upset</masterLabel>
+            <translation><!-- Stomach upset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upper respiratory infection</masterLabel>
+            <translation><!-- Upper respiratory infection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viral infection</masterLabel>
+            <translation><!-- Viral infection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ulcer</masterLabel>
+            <translation><!-- ulcer --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

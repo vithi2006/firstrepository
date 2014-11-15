@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Patient detail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Patient details</value>
+    </caseValues>
+    <fields>
+        <label><!-- DOB --></label>
+        <name>DOB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Please select one</masterLabel>
+            <translation><!-- Please select one --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Patient ID --></label>
+        <name>PatientID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pt Address --></label>
+        <name>Pt_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pt Contact Num --></label>
+        <name>Pt_Contact_Num__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pt Email ID --></label>
+        <name>Pt_Email_ID__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
